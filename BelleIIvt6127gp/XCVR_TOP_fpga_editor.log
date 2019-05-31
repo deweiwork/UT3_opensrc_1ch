@@ -1,0 +1,405 @@
+#:C179   
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\B1409_Server\Desktop\UT3_opensrc_1ch\BelleIIvt6127gp
+#Date/Time:
+#:T   Thu May 30 14:13:02 2019
+#------------------------------
+	#Reading XCVR_TOP.ncd...
+	#Loading device for application Rf_Device from file '6vhx380t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "XCVR_TOP" is an NCD, version 3.2, device xc6vhx380t, package ff1923, speed -2
+	#Design creation date: 2019.05.29.16.08.18
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_0<3>'
+	#3
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>'
+	#4
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<7>'
+	#5
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<2>'
+	#6
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<6>'
+	#7
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<8>'
+	#8
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<10>'
+	#9
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<11>'
+	#10
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<15>'
+	#11
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/decoder_0/p31'
+	#12
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/disp_out<1>'
+	#13
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<3>'
+	#14
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<7>'
+	#15
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<8>'
+	#16
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_1<7>'
+	#17
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<4>'
+	#18
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<5>'
+	#19
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<9>'
+	#20
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<11>'
+	#21
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<15>'
+	#22
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<17>'
+	#23
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_RX_BUFG_loop[0].xcvr_rx_data_clk_buf_used_assert.gen_RX_BUFG'
+	#24
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/flag_swap'
+	#25
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/flag_swap_r'
+	#26
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/lane_up_r_rx'
+	#27
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/lane_up_r_tx'
+	#28
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Madd_Tx_procedure.rx_wait_cnt[15]_GND_83_o_add_18_OUT_cy<3>'
+	#29
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Madd_Tx_procedure.rx_wait_cnt[15]_GND_83_o_add_18_OUT_cy<7>'
+	#30
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Madd_Tx_procedure.rx_wait_cnt[15]_GND_83_o_add_18_OUT_cy<11>'
+	#31
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/PWR_39_o_Tx_procedure.rx_wait_cnt[15]_equal_18_o<15>'
+	#32
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/PWR_39_o_Tx_procedure.rx_wait_cnt[15]_equal_18_o<15>1'
+	#33
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Reset_n_lane_up_OR_21_o'
+	#34
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Reset_n_lane_up_OR_21_o'
+	#35
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Madd_Tx_procedure.rx_wait_cnt[15]_GND_83_o_add_18_OUT_cy<11>'
+	#36
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/PWR_39_o_Tx_procedure.rx_wait_cnt[15]_equal_18_o<15>'
+	#37
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/PWR_39_o_Tx_procedure.rx_wait_cnt[15]_equal_18_o<15>1'
+	#38
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Madd_Tx_procedure.rx_wait_cnt[15]_GND_83_o_add_18_OUT_cy<7>'
+	#39
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Madd_Tx_procedure.rx_wait_cnt[15]_GND_83_o_add_18_OUT_cy<3>'
+	#40
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/lane_up_r_tx'
+	#41
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/lane_up_r_rx'
+	#42
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/flag_swap_r'
+	#43
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/flag_swap'
+	#44
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_RX_BUFG_loop[0].xcvr_rx_data_clk_buf_used_assert.gen_RX_BUFG'
+	#45
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>'
+	#46
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<7>'
+	#47
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<2>'
+	#48
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<6>'
+	#49
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<8>'
+	#50
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<10>'
+	#51
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<11>'
+	#52
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<15>'
+	#53
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/decoder_0/p31'
+	#54
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/disp_out<1>'
+	#55
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<3>'
+	#56
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<7>'
+	#57
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<8>'
+	#58
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_1<7>'
+	#59
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<4>'
+	#60
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<5>'
+	#61
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<9>'
+	#62
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<11>'
+	#63
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<15>'
+	#64
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<17>'
+	#65
+hilite -c violet
+	#66
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_0<3>'
+	#67
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>'
+	#68
+hilite -c violet
+	#69
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>'
+	#70
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_0<3>'
+	#71
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_0<3>'
+	#72
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<7>'
+	#73
+hilite -c tomato
+	#74
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<7>'
+	#75
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>'
+	#76
+hilite -c tomato
+	#77
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>'
+	#78
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_0<3>'
+	#79
+hilite -c tomato
+	#80
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_0<3>'
+	#81
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<2>'
+	#82
+hilite -c tomato
+	#83
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<2>'
+	#84
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<6>'
+	#85
+hilite -c tomato
+	#86
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<6>'
+	#87
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<8>'
+	#88
+hilite -c tomato
+	#89
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<8>'
+	#90
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<10>'
+	#91
+hilite -c tomato
+	#92
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<10>'
+	#93
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<11>'
+	#94
+hilite -c tomato
+	#95
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<11>'
+	#96
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<10>'
+	#97
+hilite -c thistle
+	#98
+hilite -c tomato
+	#99
+hilite -c turquoise
+	#100
+hilite -c tomato
+	#101
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<10>'
+	#102
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<11>'
+	#103
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<11>'
+	#104
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<15>'
+	#105
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<15>'
+	#106
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<11>'
+	#107
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<11>'
+	#108
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<15>'
+	#109
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<15>'
+	#110
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/decoder_0/p31'
+	#111
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/decoder_0/p31'
+	#112
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<15>'
+	#113
+hilite -c tomato
+	#114
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_out<15>'
+	#115
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/decoder_0/p31'
+	#116
+hilite -c tomato
+	#117
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/decoder_0/p31'
+	#118
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/disp_out<1>'
+	#119
+hilite -c tomato
+	#120
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/disp_out<1>'
+	#121
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<3>'
+	#122
+hilite -c tomato
+	#123
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<3>'
+	#124
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<7>'
+	#125
+hilite -c tomato
+	#126
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<7>'
+	#127
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<8>'
+	#128
+hilite -c tomato
+	#129
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_0<8>'
+	#130
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_1<7>'
+	#131
+hilite -c tomato
+	#132
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_in_buf_1<7>'
+	#133
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<4>'
+	#134
+hilite -c tomato
+	#135
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<4>'
+	#136
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<5>'
+	#137
+hilite -c tomato
+	#138
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<5>'
+	#139
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<9>'
+	#140
+hilite -c thistle
+	#141
+hilite -c tomato
+	#142
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<9>'
+	#143
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<11>'
+	#144
+hilite -c tomato
+	#145
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<11>'
+	#146
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<15>'
+	#147
+hilite -c tomato
+	#148
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<15>'
+	#149
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<17>'
+	#150
+hilite -c tomato
+	#151
+save
+	#152
+save
+	#153
+save
+	#154
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<17>'
+	#155
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<15>'
+	#156
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<15>'
+	#157
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<5>'
+	#158
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<5>'
+	#159
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Reset_n_lane_up_OR_21_o'
+	#160
+unselect -all
+	#161
+select comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>'
+	#comp "Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>",  site "SLICE_X12Y89",  type = SLICEL  (RPM grid X33Y178)
+	#162
+unselect -all
+	#163
+select comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>'
+	#comp "Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_1<3>",  site "SLICE_X12Y89",  type = SLICEL  (RPM grid X33Y178)
+	#164
+post block
+	#165
+unselect -all
+	#166
+unselect -all
+	#167
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<15>'
+	#168
+unselect comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_enc_loop[0].enc/data_out<15>'
+	#169
+select -k comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/data_in_buf_0<3>'
+	#170
+unselect -all
+	#171
+select comp 'N27'
+	#comp "N27",  site "SLICE_X16Y88",  type = SLICEL  (RPM grid X45Y176)
+	#172
+unselect -all
+	#173
+select comp 'N27'
+	#comp "N27",  site "SLICE_X16Y88",  type = SLICEL  (RPM grid X45Y176)
+	#174
+post block
+	#175
+post find
+	#176
+unpost find
+	#177
+unselect -all
+	#178
+select net 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/disp_out<1>'
+	#net "Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_16B20B_dec_loop[0].dec/disp_out<1>"
+	#179
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#180
+unselect -all
+	#181
+select comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Rx_K_i<1>'
+	#comp "Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/Rx_K_i<1>",  site "SLICE_X22Y89",  type = SLICEL  (RPM grid X61Y178)
+	#182
+select comp 'Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/rx_status_FSM_FFd3'
+	#comp "Connect_XVCR_Module_loop[0].XCVR_Module_gen/generate_traffic_loop[0].traffic/rx_status_FSM_FFd3",  site "SLICE_X24Y89",  type = SLICEL  (RPM grid X65Y178)
+	#183
+unselect -all
+	#184
+select site 'SLICE_X21Y89'
+	#site "SLICE_X21Y89",  type = SLICEL  (RPM grid X59Y178)
+	#185
+unselect -all
+	#186
+select site 'SLICE_X20Y89'
+	#site "SLICE_X20Y89",  type = SLICEM  (RPM grid X57Y178)
+	#187
+unselect -all
+	#188
+unselect -all
+	#189
+save

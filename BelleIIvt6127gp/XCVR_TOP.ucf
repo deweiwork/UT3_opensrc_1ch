@@ -11,9 +11,15 @@ NET "TX_ser_bnak<0>[0]" LOC = AN42;
 
 
 
-
 #NET "clock_test_out" LOC = N31;
-
 # PlanAhead Generated physical constraints 
-
 NET "XCVR_Ref_Clock_in" LOC = AU37;
+#Created by Constraints Editor (xc6vhx380t-ff1923-2) - 2019/05/30
+NET "Connect_XVCR_Module_loop[0].XCVR_Module_gen/XCVR_Rx_clk_out_ch" TNM_NET = Connect_XVCR_Module_loop[0].XCVR_Module_gen/XCVR_Rx_clk_out_ch;
+TIMESPEC TS_Connect_XVCR_Module_loop_0__XCVR_Module_gen_XCVR_Rx_clk_out_ch = PERIOD "Connect_XVCR_Module_loop[0].XCVR_Module_gen/XCVR_Rx_clk_out_ch" 7.8 ns HIGH 50%;
+NET "Connect_XVCR_Module_loop[0].XCVR_Module_gen/XCVR_Tx_clk_out_ch" TNM_NET = Connect_XVCR_Module_loop[0].XCVR_Module_gen/XCVR_Tx_clk_out_ch;
+TIMESPEC TS_Connect_XVCR_Module_loop_0__XCVR_Module_gen_XCVR_Tx_clk_out_ch = PERIOD "Connect_XVCR_Module_loop[0].XCVR_Module_gen/XCVR_Tx_clk_out_ch" 7.8 ns HIGH 50%;
+NET "XCVR_Ref_Clock_in" TNM_NET = XCVR_Ref_Clock_in;
+TIMESPEC TS_XCVR_Ref_Clock_in = PERIOD "XCVR_Ref_Clock_in" 7.8 ns HIGH 50%;
+NET "XCVR_Ref_Clock_in_N" TNM_NET = XCVR_Ref_Clock_in_N;
+TIMESPEC TS_XCVR_Ref_Clock_in_N = PERIOD "XCVR_Ref_Clock_in_N" 7.8 ns HIGH 50%;

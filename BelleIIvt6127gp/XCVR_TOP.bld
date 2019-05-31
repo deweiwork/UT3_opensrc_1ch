@@ -7,9 +7,24 @@ Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
 XCVR_TOP.ucf -p xc6vhx380t-ff1923-2 XCVR_TOP.ngc XCVR_TOP.ngd
 
 Reading NGO file
-"C:/Users/curlywei/Desktop/UT3_opensrc_1ch/BelleIIvt6127gp/XCVR_TOP.ngc" ...
+"C:/Users/B1409_Server/Desktop/UT3_opensrc_1ch/BelleIIvt6127gp/XCVR_TOP.ngc" ...
 Loading design module "../ipcore_dir/chipscope_ila.ngc"...
 Loading design module "../ipcore_dir/chipscope_icon.ngc"...
+INFO:NgdBuild:1317 - Using core chipscope_ila_v1 requires a ChipScopePro
+   license.  The following blocks are instances of core chipscope_ila_v1:
+	/XCVR_TOP/XCVR_TOP
+	/XCVR_TOP/Connect_XVCR_Module_loop[0].XCVR_Module_gen/ila_tx
+
+-----------------------------------------------
+INFO:Security:71 - If a license for part 'xc6vhx380t' is available, it will be
+possible to use 'ChipScopePro_TDP' instead of 'ChipScopePro'.
+WARNING:Security:42 - Your license support version '2019.05' for ChipScopePro
+expires in 1 day after which you will not qualify for Xilinx software updates or
+new releases.
+
+-----------------------------------------------
+
+-----------------------------------------------
 Gathering constraint information from source properties...
 Done.
 
@@ -31,10 +46,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4476872 kilobytes
+Total memory usage is 4476188 kilobytes
 
 Writing NGD file "XCVR_TOP.ngd" ...
-Total REAL time to NGDBUILD completion:  4 sec
-Total CPU time to NGDBUILD completion:   4 sec
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   6 sec
 
 Writing NGDBUILD log file "XCVR_TOP.bld"...
